@@ -7,9 +7,14 @@ body {
     background-color: #1F2937;
 }
 
-.header {
+.header, .p1 {
     display: flex;
     padding: 0 20px;
+}
+
+.p1 {
+    padding: 100px 20px;
+    gap: 50px;
 }
 
 h1 {
@@ -20,11 +25,14 @@ h1 {
 h2 {
     color: #F9FAF8;
     font-size: 48px;
+    margin: 0;
+    padding: 0;
 }
 
 a, .footer, .p1_left p {
     color: #e5e7eb;
     font-size: 18px;
+    margin: 0 0 12px 0;
 }
 
 ul {
@@ -40,6 +48,25 @@ a {
     text-decoration: none;    
 }
 
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-style: none;
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+img {
+    color: #F9FAF8;
+    background-color: #cdd7eb67;
+    height: auto;
+    width: 1000px;
+    text-align: center;
+    line-height: 150px;
+}
 
 
 
